@@ -1,0 +1,19 @@
+#pablo torres 1/23/25
+#Develop a function to check whether a given number is prime or not.
+#Use a loop to try dividing the number by all integers from 2 up
+#to the square root of the number. If it is divisible by any number
+#other than 1 and itself, it is not prime.
+
+
+#function definition
+def isPrime(num):
+    prime = True #
+    for i in range(2, num):
+        if num % i == 0:
+            prime = False
+    return prime
+    
+ 
+
+result = isPrime(20) #funtion call
+print("can this number prime?:", result)
