@@ -1,0 +1,11 @@
+#pablo torres 1/23/25
+#Write a function that calculates the surface area of a sphere
+#given its radius. Call the function inside a print statement.
+
+#function definition
+def SurfaceArea(r):
+        return 4 * 3.14 * r * r
+
+
+result = SurfaceArea(5) #function call
+print("the surface area of this sphere is:", result)
